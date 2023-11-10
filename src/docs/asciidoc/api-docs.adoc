@@ -1,0 +1,26 @@
+ifndef::snippets[]
+:snippets: ./build/generated-snippets
+endif::[]
+
+:user: user-controller-test
+
+= REST API
+:toc: left
+:toclevels: 2
+:source-highlighter: highlightjs
+
+== 회원
+=== 1. 회원가입
+===== Request Example
+include::{snippets}/{user}/join_test/http-request.adoc[]
+
+===== Response Example
+include::{snippets}/{user}/join_test/http-response.adoc[]
+
+=== 2. 회원정보
+===== Request Example
+include::{snippets}/{user}/user_info_test/http-request.adoc[]
+
+===== Response Example
+include::{snippets}/{user}/user_info_test/http-response.adoc[]
+
